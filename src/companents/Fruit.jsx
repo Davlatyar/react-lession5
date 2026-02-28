@@ -7,11 +7,19 @@ function Fruit() {
 
      const Itemlist = Fruit.map (Fruit => <li>{Fruit.name}</li> )
                 
+    const vegatables = 
+                [{name: "Potatoes"},
+                 { name: "Tomato"},
+                 { name: "Onion"},
+                 { name: "Corn"}]
+
 
     return(
         <>
         <ul>
-            {Itemlist}
+           {Fruit.lengt > 0 && <List items = {Fruit} category = "fruits"/>}
+           {vegatables.length > 0 && <List items = {vegatables} category = "vegatables"></List>}
+            
         </ul>
         </>
     )
