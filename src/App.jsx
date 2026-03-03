@@ -1,15 +1,15 @@
 
 import './App.css'
-import Fruit from './companents/Fruit'
-import Fruits from './companents/Fruits'
-import UserGreeting from './companents/UserGreeting'
+import Users from './companents/Users'
+
+
 
 function App() {
 
   return (
     <>
-    <Fruit></Fruit>
-    </>
+<Users/>
+      </>
   )
 }
 
